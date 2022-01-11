@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@392&display=swap');
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6a1b9a;
+    color: #fff;
+    padding: 35px 96px;
+}
+header .avail-in a{
+    font-size: 1.9rem;
+    color: #fff;
+}
+header .avail-in a:hover{
+    color: #e7e7e7;
+}
+.banner{
+    width: 100%;
+    height: calc(100vh - 104px);
+}
+.banner .content{
+    display: flex;
+    flex-direction: column;
+    width: 67vw;
+    height: 100%;
+    background-color: #6a1b9a;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.banner .content .Intro{
+    font-size: 3rem;
+}
+
+.banner .design{
+    position: absolute;
+    top: 150px;
+    right: 263px;
+    width: 30rem;
+    height: 30rem;
+    /* background-color: #000; */
+}
+.banner .design .first{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #ff4343;
+    width: 70px;
+    height: 70px;
+    animation: rad 1s alternate infinite;
+    animation-delay:0.8s
+}
+.banner .design .second{
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    animation: rad 1s alternate infinite;
+    animation-delay:0.7s
+}
+.banner .design .third{
+    top: 33%;
+    left: 33%;
+    position: absolute;
+    background-color: #ffffff;
+    width: 70px;
+    height: 70px;
+    animation: rad 1s alternate infinite;
+    animation-delay:0.3s
+}
+.banner .design .fourth{
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    background-color: #ff3131;
+    width: 70px;
+    height: 70px;
+    animation: rad 1s alternate infinite;
+    animation-delay: 0.4s
+}
+.banner .design .fifth{
+    position: absolute;
+    top: 33%;
+    left: 67%;
+    background-color: #1daf00;
+    width: 70px;
+    height: 70px;
+    animation: rad 1s alternate infinite;
+    animation-delay:0.5s
+}
+.banner .design .sixth{
+    position: absolute;
+    top: 50%;
+    left: 67%;
+    background-color: #2600ff;
+    width: 70px;
+    height: 70px;
+    animation: rad 1s alternate infinite;
+    animation-delay:0.9s
+}
+.banner .design .seventh{
+    top: 33%;
+    left: 16%;
+    position: absolute;
+    background-color: #ffffff;
+    width: 70px;
+    height: 70px;
+    animation: rad 1s alternate infinite;
+    animation-delay:0.2s
+}
+.banner .design .eighth{
+    position: absolute;
+    top: 50%;
+    left: 16%;
+    background-color: #b7ff31;
+    width: 70px;
+    height: 70px;
+    animation: rad 1s alternate infinite;
+    animation-delay:0.6s
+}
+.banner .design .ninth{
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    background-color: rgb(255, 86, 86);
+    width: 70px;
+    height: 70px;
+    animation: rad 1s alternate infinite;
+    animation-delay:0.0s
+}
+.banner .design .tenth{
+    position: absolute;
+    top: 67%;
+    left: 33%;
+    background-color: #31d300;
+    width: 70px;
+    height: 70px;
+    animation: rad 1s alternate infinite;
+    animation-delay:1.2s
+}
+.banner .design .eleventh{
+    top: 16%;
+    left: 67%;
+    position: absolute;
+    background-color: #2f9aff;
+    width: 70px;
+    height: 70px;
+    animation: rad 1s alternate infinite;
+    animation-delay:0.2s
+}
+.banner .design .twelveth{
+    position: absolute;
+    top: 67%;
+    left: 16%;
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    animation: rad 1s alternate infinite;
+    animation-delay:1.0s
+}
+
+
+@keyframes rad {
+    0%{
+        border-radius: 0%;
+    }
+    100%{
+        border-radius: 50%;
+    }
+}
+.my-projects{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 100px;
+    align-items: center;
+}
+.my-projects h1{
+    margin-bottom: 20px;
+}
+.project{
+    display: flex;
+    flex-direction: row;
+}
