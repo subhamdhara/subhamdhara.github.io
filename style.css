@@ -194,10 +194,37 @@ header .avail-in a:hover{
 }
 .my-projects h1{
     margin-bottom: 20px;
+    border-bottom: 4px solid #000;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
 }
 .project{
     display: flex;
     flex-direction: row;
+    text-align: justify;
+    width: 100%;
+    gap: 10px;
+}
+.project a{
+    background-color: #6a1b9a;
+    padding: 10px;
+    align-self: flex-start;
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+    border-radius: 10px;
+}
+.project a:hover{
+    background-color: #4c1270;
+}
+.project .left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.project img{
+    width: 500px;
 }
 @media (max-width:1024px) {
     .banner .content{
@@ -208,6 +235,21 @@ header .avail-in a:hover{
     }
     .banner .content .Intro{
         font-size: 30px;
+    }
+
+}
+@media (max-width:960px) {
+    .project{
+        flex-direction: column;
+    }
+
+}
+@media (max-width:707px) {
+    .project .right{
+        display: none;
+    }
+    .project{
+        text-align: center;
     }
 
 }
