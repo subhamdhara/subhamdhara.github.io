@@ -191,6 +191,7 @@ header .avail-in a:hover{
     flex-direction: column;
     padding: 70px 100px;
     align-items: center;
+    gap: 20px;
 }
 .my-projects h1{
     margin-bottom: 20px;
@@ -205,6 +206,9 @@ header .avail-in a:hover{
     text-align: justify;
     width: 100%;
     gap: 10px;
+}
+.project-name{
+    text-align: center;
 }
 .project a{
     background-color: #6a1b9a;
