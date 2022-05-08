@@ -341,6 +341,9 @@ div.i-know .container .card:nth-child(2) .percent svg circle:nth-child(2){
 div.i-know .container .card:nth-child(3) .percent svg circle:nth-child(2){
     stroke-dashoffset: calc(440px - (440px * 20)/100);
 }
+div.i-know .container .card:nth-child(4) .percent svg circle:nth-child(2){
+    stroke-dashoffset: calc(440px - (440px * 59)/100);
+}
 div.i-know .container .card .percent .number{
     position: absolute;
     top:0;
